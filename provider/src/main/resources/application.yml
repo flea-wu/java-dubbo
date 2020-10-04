@@ -1,6 +1,6 @@
 dubbo:
   application:
-    name: boot-order-service-provider
+    name: boot-order-com.nbjike.service-provider
   registry:
     address: zookeeper://101.133.169.16:2181
   monitor:

@@ -11,6 +11,8 @@
         <module>api</module>
         <module>provider</module>
         <module>consumers</module>
+        <module>consumers02</module>
+        <module>provider02</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -39,12 +41,13 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-            <!--<exclusions>-->
-                <!--<exclusion>-->
-                    <!--<groupId>org.springframework.boot</groupId>-->
-                    <!--<artifactId>spring-boot-starter-tomcat</artifactId>-->
-                <!--</exclusion>-->
-            <!--</exclusions>-->
+        </dependency>
+        <!--使用 redis 做配置中心-->
+        <!-- Redis 支持包 -->
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>2.9.0</version>
         </dependency>
     </dependencies>
 
