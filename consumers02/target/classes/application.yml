@@ -1,0 +1,8 @@
+dubbo:
+  application:
+    name: boot-order-com.nbjike.service-consumer
+  registry:
+    address: root:wawaji@127.0.0.1:11328
+    protocol: redis
+server:
+  port: 8081

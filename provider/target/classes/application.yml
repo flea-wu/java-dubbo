@@ -1,0 +1,9 @@
+dubbo:
+  application:
+    name: boot-order-service-provider
+  registry:
+    address: zookeeper://101.133.169.16:2181
+  monitor:
+    protocol: registry
+server:
+  port: 8082

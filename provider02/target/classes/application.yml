@@ -1,0 +1,10 @@
+dubbo:
+  application:
+    name: boot-order-com.nbjike.service-provider
+  registry:
+    address: redis://127.0.0.1:11328
+    protocol: redis
+    username: root
+    password: wawaji
+server:
+  port: 8082
